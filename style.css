@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+input:focus:focus-visible{
+  outline: 0;
+}
+.main{
+  background-color: #99BC85;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  min-width: 400px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+  background-color: #A87C7C;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+#pass-box {
+  width: 100%;
+  display: block;
+  background-color: #EFECEC;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.row{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: #F5EEE6;
+  font-size: 20px;
+}
+label{
+  user-select: none;
+}
+#btn {
+  width: 100%;
+  font-size: 20px;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
